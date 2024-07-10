@@ -4,6 +4,9 @@ A robust ETL pipeline for Spotify data using Python and AWS services. This proje
 
 This project involves building a data pipeline for extracting, transforming, and loading Spotify data using Python and AWS services. The pipeline is designed to automate the data processing workflow, ensuring data is collected, transformed, and made available for analysis efficiently and reliably.
 
+![image](https://github.com/Shushma-thatipamula/spotify-etl-pipeline-project/assets/56660510/59e1de0c-a912-473f-876e-131a8a0e9cb1)
+
+
 ## Key Features:
 
 Automated Data Extraction: Utilizes Spotipy, a Python library, to interact with the Spotify Web API for extracting data. AWS Lambda and CloudWatch are used to schedule and trigger the extraction process daily.
