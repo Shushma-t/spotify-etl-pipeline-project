@@ -7,7 +7,9 @@ This project involves building a data pipeline for extracting, transforming, and
 ## Key Features:
 
 Automated Data Extraction: Utilizes Spotipy, a Python library, to interact with the Spotify Web API for extracting data. AWS Lambda and CloudWatch are used to schedule and trigger the extraction process daily.
+
 Efficient Data Transformation: AWS Lambda is employed to execute data transformation logic whenever new data is added to the raw data S3 bucket, ensuring the data is ready for analysis.
+
 Seamless Data Loading: AWS Glue Crawler and AWS Glue Data Catalog manage metadata and infer schema on the transformed data stored in S3. Amazon Athena is then used for querying the data, making it simpler to analyze.
 
 ## Technologies Used:
